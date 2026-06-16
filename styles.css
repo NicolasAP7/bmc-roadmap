@@ -714,6 +714,12 @@ h3 {
   grid-template-columns: minmax(280px, 0.78fr) minmax(0, 1fr);
 }
 
+.about-section .section-label {
+  margin-bottom: 20px;
+  font-size: clamp(0.98rem, 1.4vw, 1.18rem);
+  letter-spacing: 0.11em;
+}
+
 .portrait-frame {
   position: relative;
 }
